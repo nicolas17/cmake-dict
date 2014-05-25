@@ -1,0 +1,2 @@
+This is a CMake function that provides associative arrays / dictionaries.
+It's only string->string dictionaries; you cannot nest them.
