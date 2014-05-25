@@ -1,6 +1,5 @@
 function(dict command dict )
     if(command STREQUAL SET)
-        message("setting dict[\"${ARGV2}\"]=\"${ARGV3}\"")
         set(arg_key ${ARGV2})
         set(arg_value ${ARGV3})
 
